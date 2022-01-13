@@ -97,8 +97,10 @@ opacity: 0.7;
       </section> --}}
 
       <section id="home">
-<h1>Find All MATLAB Codes</h1>
+        <div class="title">
+<h1>Find All  Codes</h1>
 <h1>You Need Here!</h1>
+</div>
 
 <p class="mt-5">Powerful machine learning friend expertise in data computation and visual representation Drives innovation and </br> simulate your engineering thoughts Widely used research tool to smooth your analysis procedure, no other program can!</p>
 <form action="/search" method="post">

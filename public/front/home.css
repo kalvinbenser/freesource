@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: center;
 }
+@media only screen and (min-width: 600px) {
 #home h1{
   font-size: 70px;
   color:white;
@@ -25,19 +26,24 @@
                 0px 6px 0px #ccc,
                 0px 7px 0px #ccc;
 }
-
+}
 @media only screen and (max-width: 600px) {
+  .title{
+    margin-top: 30px;
+  }
   #home h1 {
-    font-size: 30px;
+    font-size: 40px;
+   
     color:white;
     letter-spacing: 2px;
     font-family: Verdana,Geneva,Tahoma,sans-serif;
-
+   
+    
 
   }
 
   #home p{
-    font-size: 13px;
+    font-size: 10px;
     color:white;
     min-height: 50px;
   }
@@ -60,9 +66,9 @@
   }
 
   #home p{
-    font-size: 10px;
+    font-size: 5px;
     color:white;
-    min-height: 40px;
+    /* min-height: 40px; */
   }
   #home .sign{
     background: black;

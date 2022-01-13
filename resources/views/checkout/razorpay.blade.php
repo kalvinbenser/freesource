@@ -196,7 +196,7 @@
                    <tr>
 
                    <td>{{$payment->title}}</td>
-                   <td >{{$payment->price}}</td>
+                   <td >${{$payment->price}}</td>
                    </tr>
                     </tbody>
 
