@@ -59,7 +59,7 @@ opacity: 0.7;
   <ol class="breadcrumb mb-4 p-2 bg-warning">
       <li class="breadcrumb-item"><a href="/">Home</a></li>
 
-      <li class="breadcrumb-item active">Contact Us</li>
+      <li class="breadcrumb-item active">Contact Form</li>
   </ol>
         <section class="mt-5 mb-5">
 
@@ -71,7 +71,7 @@ opacity: 0.7;
                   @if(session()->has('contact'))
                   <div class="alert alert-success">{{session()->get('contact')}}</div>
                   @endif
-                      <h2 class="text-center">Contact Us</h2>
+                      <h2 class="text-center">Contact Form</h2>
 
                   <form action="/send_contact" method="post">
                     @csrf
